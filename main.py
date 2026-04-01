@@ -1,6 +1,4 @@
-def main():
-    print("Hello from house-price-prediction!")
+import pandas as pd 
 
-
-if __name__ == "__main__":
-    main()
+data = pd.read_csv("Data/Raw/train.csv")
+print(data.head())
